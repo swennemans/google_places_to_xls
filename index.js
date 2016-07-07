@@ -3,10 +3,10 @@ import promise from 'bluebird';
 import json2xls from 'json2xls';
 import fs from 'fs';
 
-const location = '52.3634418,4.9334624'
+const location = 'lat,long'
 const radius = 50000;
 
-const keyword = "huisarts";
+const keyword = "keyword";
 
 import key from './key'
 
